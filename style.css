@@ -1,0 +1,76 @@
+@import "theme.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--ff-monteserrat);
+    font-weight: 500;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.left,
+.right,
+.middle {
+    width: 33%;
+}
+
+.left {
+    background-color: var(--gri-7);
+    box-shadow: var(--koyu-golge);
+}
+
+.left img {
+    width: 30px;
+    height: 30px;
+    transition: all 1s;
+}
+
+.left img:hover {
+    font-size: 40px;
+}
+
+.middle {
+    background-color: var(--mavi-6);
+    text-align: center;
+    box-shadow: var(--koyu-golge);
+    border-radius: 10px;
+}
+
+.middle a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 16px;
+    color: black;
+    transition: all 1s;
+    border-radius: 10px;
+}
+
+.middle a:hover {
+    background-color: var(--mavi-10);
+    border-radius: 10px;
+    box-shadow: var(--acik-golge);
+    color: var(--mavi-5);
+}
+
+.right {
+    text-align: right;
+    background-color: var(--mavi-7);
+    box-shadow: var(--koyu-golge);
+}
+
+.right i {
+    color: black;
+    font-size: 30px;
+    transition: all 1s;
+}
+
+.right i:hover {
+    font-size: 40px;
+}
